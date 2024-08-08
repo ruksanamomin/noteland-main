@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color:  #2a2f44;
+    display: flex;
+    height: 110px;
+    display: flex;
+    
+    
+    align-items: center;
+    
+}
+
+  
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #2a2f44;
+    width: 25%;
+  }
+  .heading img{
+    height: 110px;
+  }
+  .heading h1{
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: white;
+    
+}
+.head{
+    position: absolute;
+    right:  0;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    background-color: #27549f;
+    height: 110px;
+    color: white;
+ 
+    position: fixed;
+}
+
+.head h2{
+    left: 0;
+    padding-left: 20px;
+    
+    font-size: 40px;
+    font-family:sans-serif;
+    padding-right: 500px;
+}
+.button{
+    width: 130px;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    border: none;
+}
+#delete{
+    width: 80px;
+    border-radius: 5px;
+    height: 25px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    border: none;
+    background-color: rgb(219, 66, 66);
+}
+
+main{
+    display: flex;
+    overflow: hidden;
+}
+
+.scrolling-section {
+    
+    width: 25%; 
+    height: 100vh; 
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2f44;
+    
+    border: 1px solid #ccc; 
+    border: none;
+    
+  }
+.note{
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.bottom{
+    height: 70px;
+    width: 25%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #2a2f44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom button{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.text{
+    background-color: #27549f;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.newNote{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+   
+    
+
+}
+#textTitle{
+    font-size: 30px;
+    height: 50px;
+    border: none;
+    width: 90%;
+}
+#textDescription{
+    font-size: 30px;
+    height: 70%;
+    border: none;
+    width: 90%;
+    
+}
+.button2{
+    height: 50px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+#imageR{
+    height: 70%;
+}
+
+
+
+
+
